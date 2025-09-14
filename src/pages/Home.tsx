@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import SEOHead from '@/components/SEOHead';
 import Timeline from '@/components/Timeline';
+import ProjectCard from '@/components/ProjectCard';
 import { personalInfo, milestones, projects } from '@/data/portfolio';
 
 const stats = [
@@ -179,19 +180,16 @@ export default function Home() {
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              {featuredProjects.map((project, index) => {
-                const ProjectCard = require('@/components/ProjectCard').default;
-                return (
-                  <motion.div
-                    key={project.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
-                  >
-                    <ProjectCard project={project} index={index} />
-                  </motion.div>
-                );
-              })}
+              {featuredProjects.map((project, index) => (
+                <motion.div
+                  key={project.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
+                >
+                  <ProjectCard project={project} index={index} />
+                </motion.div>
+              ))}
             </div>
 
             <motion.div

@@ -11,13 +11,13 @@ interface SEOHeadProps {
 }
 
 export function SEOHead({
-  title = 'Alex Johnson - SaaS Founder & Indie Hacker',
+  title = 'AxoLab - SaaS Founder & Indie Hacker',
   description = 'Follow my journey building multiple SaaS products on the road to $1M ARR. Learn from successes, failures, and everything in between.',
   keywords = 'SaaS, indie hacker, startup, entrepreneur, software development, MRR, ARR, business growth',
   image = '/og-image.jpg',
-  url = 'https://alexjohnson.dev',
+  url = 'https://axolab.co',
   type = 'website',
-  author = 'Alex Johnson'
+  author = 'AxoLab'
 }: SEOHeadProps) {
   useEffect(() => {
     // Update document title
@@ -54,14 +54,14 @@ export function SEOHead({
     updateMetaTag('og:image', image, true);
     updateMetaTag('og:url', url, true);
     updateMetaTag('og:type', type, true);
-    updateMetaTag('og:site_name', 'Alex Johnson - SaaS Journey', true);
+    updateMetaTag('og:site_name', 'AxoLab - SaaS Journey', true);
 
     // Twitter Card tags
-    updateMetaTag('twitter:card', 'summary_large_image');
-    updateMetaTag('twitter:title', title);
-    updateMetaTag('twitter:description', description);
-    updateMetaTag('twitter:image', image);
-    updateMetaTag('twitter:creator', '@alexjohnson');
+    // updateMetaTag('twitter:card', 'summary_large_image');
+    // updateMetaTag('twitter:title', title);
+    // updateMetaTag('twitter:description', description);
+    // updateMetaTag('twitter:image', image);
+    // updateMetaTag('twitter:creator', '@alexjohnson');
 
     // Canonical URL
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;

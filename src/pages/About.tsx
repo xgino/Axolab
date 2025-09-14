@@ -18,9 +18,9 @@ import SEOHead from '@/components/SEOHead';
 import { personalInfo, milestones } from '@/data/portfolio';
 
 const skills = [
-  { category: 'Frontend', techs: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Vue.js'] },
-  { category: 'Backend', techs: ['Node.js', 'Python', 'Django', 'PostgreSQL', 'MongoDB'] },
-  { category: 'SaaS Tools', techs: ['Stripe', 'SendGrid', 'Mixpanel', 'Intercom', 'Vercel'] },
+  { category: 'Frontend', techs: ['HTML', 'CSS', 'JS', 'React'] },
+  { category: 'Backend', techs: ['Python', 'Django', 'PostgreSQL', 'SQLite'] },
+  { category: 'SaaS Tools', techs: ['Stripe', 'OpenAPI', 'API', 'Neamcheap'] },
   { category: 'Marketing', techs: ['SEO', 'Content Marketing', 'Email Marketing', 'Social Media'] }
 ];
 
@@ -54,9 +54,9 @@ export default function About() {
   return (
     <>
       <SEOHead 
-        title="About Alex Johnson - SaaS Founder & Indie Hacker"
+        title="About AxoLab - SaaS Founder & Indie Hacker"
         description="Learn about my journey from developer to SaaS founder, building multiple products on the road to $1M ARR. My story, values, and approach to building software businesses."
-        keywords="Alex Johnson, SaaS founder, indie hacker, entrepreneur, software developer, startup founder"
+        keywords="AxoLab, SaaS founder, indie hacker, entrepreneur, software developer, startup founder"
       />
       
       <div className="min-h-screen pt-20">
@@ -72,7 +72,7 @@ export default function About() {
                 className="lg:col-span-1 text-center lg:text-left"
               >
                 <div className="w-48 h-48 mx-auto lg:mx-0 mb-6 hero-gradient rounded-full flex items-center justify-center text-white text-6xl font-bold glow">
-                  AJ
+                  AL
                 </div>
                 
                 <div className="space-y-2">

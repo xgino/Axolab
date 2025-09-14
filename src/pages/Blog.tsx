@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { Calendar, Clock, ArrowRight, Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -31,7 +31,7 @@ export default function Blog() {
   return (
     <>
       <SEOHead 
-        title="Blog - Alex Johnson | SaaS Insights & Startup Lessons"
+        title="Blog - AxoLab | SaaS Insights & Startup Lessons"
         description="Read about my journey building SaaS products, lessons from failures, pricing strategies, and practical guides for indie hackers."
         keywords="SaaS blog, startup lessons, indie hacker insights, pricing strategy, software development, entrepreneurship"
       />

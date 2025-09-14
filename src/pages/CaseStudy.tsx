@@ -77,7 +77,7 @@ export default function CaseStudy() {
   return (
     <>
       <SEOHead 
-        title={`${project.title} Case Study - Alex Johnson`}
+        title={`${project.title} Case Study - AxoLab`}
         description={`${project.longDescription.slice(0, 160)}...`}
         keywords={`${project.title}, ${project.tags.join(', ')}, case study, SaaS`}
       />

@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <>
       <SEOHead 
-        title="Alex Johnson - SaaS Founder & Indie Hacker"
+        title="AxoLab - SaaS Founder & Indie Hacker"
         description="Follow my journey building multiple SaaS products on the road to $1M ARR. Learn from successes, failures, and everything in between."
       />
       

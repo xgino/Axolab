@@ -83,10 +83,10 @@ export function Navbar() {
             className="flex items-center space-x-2 group"
           >
             <div className="w-10 h-10 hero-gradient rounded-lg flex items-center justify-center text-white font-bold text-lg group-hover:glow transition-all duration-300">
-              AJ
+              AL
             </div>
             <span className="text-xl font-semibold text-foreground">
-              Alex Johnson
+              AxoLab
             </span>
           </Link>
 

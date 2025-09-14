@@ -46,7 +46,7 @@ export default function Portfolio() {
   return (
     <>
       <SEOHead 
-        title="Portfolio - Alex Johnson | SaaS Projects & Case Studies"
+        title="Portfolio - AxoLab | SaaS Projects & Case Studies"
         description="Explore my complete portfolio of SaaS products, from successful $15K MRR projects to failed experiments with valuable lessons learned."
         keywords="SaaS portfolio, startup projects, case studies, indie hacker, software development, MRR growth"
       />
